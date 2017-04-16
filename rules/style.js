@@ -23,7 +23,7 @@ module.exports = {
     // specify whether double or single quotes should be used
     'quotes': [2, 'single', 'avoid-escape'],
     // enforce that semicolons are never used
-    'semi': [2, 'never'],
+    'semi': [2, 'always'],
     // require spaces around operators
     'space-infix-ops': 2,
     // require spaces following keywords
