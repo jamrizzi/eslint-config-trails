@@ -2,6 +2,10 @@ module.exports = {
   'env': {
     'es6': true
   },
+  parserOptions: {
+    ecmaVersion: 8,
+    sourceType: 'module'
+  },
   'ecmaFeatures': {
     'arrowFunctions': true,
     'blockBindings': true,
